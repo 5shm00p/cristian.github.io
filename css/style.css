@@ -1,0 +1,42 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Oswald;
+  color: #fff;
+  background-color: #000;
+}
+.detail {
+  color:#7B133C;
+}
+.text {
+  font-size: 1.5em;
+  vertical-align:sub;
+}
+.container {
+  text-align: center;
+  font-size: 3em;
+  margin: 100px auto;
+  width: 10em;
+  position: relative;
+  border-radius: 20%;
+  border: 0.2em #fff solid;
+  animation: pulse 1s ease-in infinite;
+  transition: all 0.2s;
+}
+.container:hover{
+  border-color: #7B133C;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  body   {
+    font-size: 8px;
+  }
+}
